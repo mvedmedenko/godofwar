@@ -107,18 +107,19 @@ body {
 
 .button {
     display: inline-block;
-    padding: 18px 32px;
+    padding: 18.5px 32px;
     background-color: #5092D2;
     border-radius: 5px;
     color: #16161A;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
 }
 
 .header_btn {
     margin-left: 48px;
-}
-
-.button_wrapper {
-    display: block;
 }
 
 .main_title {
@@ -184,6 +185,7 @@ body {
 .heroes_title {
     text-align: center;
     font-size: 26px;
+    margin-bottom: 164px;
 }
 
 .heroes_box-wrapper {
@@ -194,13 +196,7 @@ body {
     width: 368px;
     height: 420px;
     background: #27272E;
-    z-index: 1;
-}
-
-.heroes_box img {
-    position: absolute;
-    top: -100px;
-    z-index: 4;
+    padding-bottom: 100px;
 }
 
 .excerpt {
@@ -252,4 +248,65 @@ body {
 
 .excerpt_subtitle-text:not(:last-child) {
     margin-bottom: 30px;
+}
+
+.weapons_inner {
+    height: 900px;
+    padding-top: 100px;
+}
+
+.weapons_title {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    margin-bottom: 26px;
+}
+
+.weapons_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weapons_card {
+    display: flex;
+    justify-content: space-between;
+    width: 625px;
+    height: 520px;
+    background-color: #27272E;
+    border-radius: 4px;
+}
+
+.weapons_name {
+    min-width: 140px;
+    padding-top: 200px;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    margin-bottom: 16px;
+}
+
+.weapons_description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+
+.weapons_img {
+    padding-top: 70px;
+}
+
+.weapons_img img {
+    max-width: 321px;
+    max-height: 450px;
+}
+
+.weapons_text-box {
+    padding-left: 64px;
 }
