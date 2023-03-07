@@ -62,7 +62,8 @@ body {
     justify-content: space-between;
 }
 
-.illistration {
+.illustration {
+    display: none;
     align-items: center;
     text-align: center;
 }
@@ -188,16 +189,11 @@ body {
     margin-bottom: 164px;
 }
 
-.heroes_box-wrapper {
-    z-index: 1;
+.heroes_img img {
+    width: 368px;
+    height: 505px;
 }
 
-.heroes_box {
-    width: 368px;
-    height: 420px;
-    background: #27272E;
-    padding-bottom: 100px;
-}
 
 .excerpt {
     padding-top: 100px;
