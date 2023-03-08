@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normilize.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
@@ -63,8 +64,18 @@
                         </div>
                         <div class="main_video-box">
                             <div class="main_video">
-                                <video src="./assets/videoes/God of War – Story Trailer _ PS4.mp4" width="496"
-                                    height="279" controls poster="./assets/images/poster.png" muted></video>
+                                <video 
+                                    src="./assets/videoes/God of War – Story Trailer _ PS4.mp4" 
+                                    muted
+                                    id="my-video"
+                                    class="video-js"
+                                    controls
+                                    preload="auto"
+                                    width="496"
+                                    height="279"
+                                    poster="./assets/images/poster.png"
+                                    data-setup="{}">
+                                </video>
                             </div>
                         </div>
                     </div>
@@ -200,7 +211,7 @@
         </div>
     </section>
 
-
+    <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-3.6.3.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="./js/main.js"></script>
